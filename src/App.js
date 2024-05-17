@@ -104,7 +104,7 @@ function App() {
   const moveChest = () => {
     const chest = document.getElementById("chest");
     const animation = chest.animate(
-      [{ transform: "translateY(0)" }, { transform: "translateY(10vh)" }],
+      [{ transform: "translateY(0)" }, { transform: "translateY(25vh)" }],
       {
         duration: 1000,
         easing: "linear",
@@ -136,19 +136,19 @@ function App() {
             <>
               <Container
                 sx={{
-                  height: "60vh",
+                  height: "65vh",
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
+                  fontFamily: "monospace",
                 }}
               >
                 <Fade in={showCard}>
                   <Card
                     sx={{
-                      height: "35vh",
-                      width: "50vw",
+                      height: "100%",
+                      width: "100%",
                       backgroundColor: "#4e4e4e",
-                      color: "#ffffff",
                       display: "flex",
                       flexDirection: "column",
                       justifyContent: "center",
@@ -157,19 +157,32 @@ function App() {
                   >
                     <CardMedia
                       component="img"
-                      sx={{ height: "200px", flex: "1" }}
+                      sx={{ height: "250px", flex: "1" }}
                       image={randomProject.image}
                       alt={randomProject.imageAlt}
                       draggable="false"
                     />
                     <CardContent sx={{ flex: "1" }}>
-                      <Typography gutterBottom variant="h4" component="div">
+                      <div style={{ 
+                        color: "#6cb3c8", 
+                        fontSize: "3em",
+                        "@media (max-width: 600px)": {
+                          fontSize: "1.5em", 
+                        },
+                        fontWeight: "bold",
+                      }}>
                         {randomProject.title}
-                      </Typography>
+                      </div>
                       <Typography
-                        variant="body1"
-                        color="#f5f5f5"
+                        color="#d8e0fc"
                         component="div"
+                        textAlign="left"
+                        fontSize="1.5em"
+                        sx={{
+                          "@media (max-width: 600px)": {
+                            fontSize: "1em", 
+                          }
+                        }}
                       >
                         {randomProject.content}
                       </Typography>

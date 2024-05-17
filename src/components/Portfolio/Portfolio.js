@@ -9,9 +9,9 @@ const projects = [
   {
     image: servers,
     imageAlt: "servers",
-    title: "Dedicated Minecraft Server Hosting",
+    title: "Dedicated Game Server Hosting",
     content: (
-      <ul style={{ listStyleType: "none", paddingInlineStart: "0" }}>
+      <ul style={{ }}>
         <li>
           Managed and maintained a dedicated 24/7 Minecraft server using Docker,
           ensuring optimal performance and uptime
@@ -33,7 +33,7 @@ const projects = [
     imageAlt: "magic cards",
     title: "Machine Learning Card Identifier",
     content: (
-      <ul style={{ listStyleType: "none", paddingInlineStart: "0" }}>
+      <ul style={{ }}>
         <li>
           Utilized urllib to download JSON card data and get card images via
           Scryfall API
@@ -54,7 +54,7 @@ const projects = [
     imageAlt: "stocks",
     title: "Stock Trading Website",
     content: (
-      <ul style={{ listStyleType: "none", paddingInlineStart: "0" }}>
+      <ul style={{ }}>
         <li>
           Designed a full stack website to view, buy, and sell stocks (Flask,
           HTML, CSS, SQLite)
@@ -80,7 +80,7 @@ const projects = [
     imageAlt: "book",
     title: "Spell Checker",
     content: (
-      <ul style={{ listStyleType: "none", paddingInlineStart: "0" }}>
+      <ul style={{ }}>
         <li>
           Find all misspellings by comparing words to a given dictionary in C
           language

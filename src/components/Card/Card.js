@@ -27,27 +27,30 @@ const Card = ({ image, imageAlt, title, content }) => {
       sx={{
         backgroundColor: "#4e4e4e",
         color: "#ffffff",
-        height: "35vh",
-        display: "flex",
-        flexDirection: "column",
+        height: "auto",
+        // display: "flex",
+        // flexDirection: "column",
+        // flexWrap: "wrap",
         margin: "1rem",
         justifyContent: "center",
         alignItems: "center",
         filter: isBlurred ? "blur(8px)" : "none",
+        textAlign: "center",
+        border: "1px solid #8dc0cf",
       }}
     >
-      <CardMedia
+      {/* <CardMedia
         component="img"
-        sx={{ height: "250px", flex: "1" }}
+        sx={{ height: "10px", flex: "1" }}
         image={image}
         alt={imageAlt}
         draggable="false"
-      />
-      <CardContent sx={{ flex: "1", textAlign: "center" }}>
-        <Typography gutterBottom variant="h4" component="div">
+      /> */}
+      <CardContent>
+        <h3 style={{ color: '#6cb3c8' }}>
           {title}
-        </Typography>
-        <Typography variant="body1" color="#f5f5f5" component="div">
+        </h3>
+        <Typography color="#d8e0fc" component="div" textAlign="left">
           {content}
         </Typography>
       </CardContent>

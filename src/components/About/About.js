@@ -2,10 +2,11 @@ import { Container, Typography } from "@mui/material";
 
 import self_pic from "../../images/me.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const About = () => {
   return (
-    <Container style={{}}>
+    <Container style={{textAlign: "center"}}>
       <img
         src={self_pic}
         alt="Me"
@@ -13,8 +14,8 @@ const About = () => {
       />
       <Typography
         style={{
-          fontSize: "4em",
-          color: "#b1aca3",
+          fontSize: "2em",
+          color: "#d8e0fc",
           margin: "20px",
           fontFamily: "monospace",
         }}
@@ -23,11 +24,11 @@ const About = () => {
       </Typography>
       <Typography
         style={{
-          fontSize: "2em",
+          fontSize: "1.5em",
           color: "#e4ded3",
           margin: "20px",
           fontFamily: "monospace",
-          textAlign: "justify",
+          textAlign: "left"
         }}
       >
         Hi there! I started learning how to code as a high school student as
@@ -51,6 +52,9 @@ const About = () => {
           <GitHubIcon
             style={{ fontSize: "3em", color: "#e4ded3", marginRight: "10px" }}
           />
+        </a>
+        <a href="https://www.linkedin.com/in/trung-nguyen-004b78239/">
+          <LinkedInIcon style={{ fontSize: "3em", color: "#e4ded3" }} />
         </a>
       </Container>
     </Container>
