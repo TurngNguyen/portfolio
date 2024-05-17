@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e4db31d7.css",
+    "main.js": "/portfolio/static/js/main.b15aa52d.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/me.jpg": "/portfolio/static/media/me.48cd0d58b9808fbb539f.jpg",
+    "static/media/book.jpg": "/portfolio/static/media/book.716b2062919204096aef.jpg",
+    "static/media/magic_cards.jpg": "/portfolio/static/media/magic_cards.fc2cc065d7db430a910a.jpg",
+    "static/media/stocks.jpg": "/portfolio/static/media/stocks.585a57996d7f172d4152.jpg",
+    "static/media/minecraft_chest_open.webp": "/portfolio/static/media/minecraft_chest_open.fd77e91ebff7ecf8300e.webp",
+    "static/media/servers.webp": "/portfolio/static/media/servers.2826ff58e653fbf2a752.webp",
+    "static/media/chest_open_and_close.mp3": "/portfolio/static/media/chest_open_and_close.bc4b0d43a446614ccfe6.mp3",
+    "static/media/firework_explode.mp3": "/portfolio/static/media/firework_explode.0efc77b916000f1baf75.mp3",
+    "static/media/firework_launch.mp3": "/portfolio/static/media/firework_launch.4e3ebb9fbf29ddb0e674.mp3",
+    "static/media/firework.webp": "/portfolio/static/media/firework.ddb6c8622d9ce90a0718.webp",
+    "index.html": "/portfolio/index.html",
+    "main.e4db31d7.css.map": "/portfolio/static/css/main.e4db31d7.css.map",
+    "main.b15aa52d.js.map": "/portfolio/static/js/main.b15aa52d.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4db31d7.css",
+    "static/js/main.b15aa52d.js"
+  ]
+}
